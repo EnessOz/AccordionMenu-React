@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    background-color: rgba(0, 255, 170, 0.479);
+    border-radius: 10px;
+    
+
+}
+.titleNbuttons {
+    
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    
+    
+    
+}
+.info {
+    max-width: 100%;
+    background-color: rgba(103, 197, 150, 0.479);
+}
+.childrenContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
